@@ -12,4 +12,8 @@ Example setup of a Python 3 package
 ### 2. Add the package code
 
 * Make sure the `__init__.py` file facilitates not more and not less than what
-  you think your API should facilitate
+  you think your API should facilitate.
+
+### 3. Add version
+
+* Add a file that states the version of the package.
