@@ -1,6 +1,8 @@
 # ExamplePyPackageA
 Example setup of a Python 3 package
 
+[![Build Status](https://travis-ci.com/gefux/ExamplePyPackageA.svg?branch=main)](https://travis-ci.com/gefux/ExamplePyPackageA)
+
 ## Steps:
 
 ### 1. Create repo on Github
@@ -44,3 +46,7 @@ python3 -m pip install .
   github.
 * Add the repo to travis.
 * Add travis configuration in `.travis.yml`
+* From now on travis will run the test after every push to github.
+* Add the build-badge (just to show off) on the top on the readme. You can get
+  it by clicking on the build-badge icon on the build of the repo on travis.
+  It is a link and changes depending on the outcome of the last build.
