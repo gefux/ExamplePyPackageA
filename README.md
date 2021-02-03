@@ -29,3 +29,11 @@ executing:
 ```
 python3 -m pip install .
 ```
+
+### 5. Create test environment
+
+* Create `requirements_ci.txt` with all dependencies needed for the contineous
+  integration. This includes the normal requrements plus any other packages
+  needed for testing or creating the documentation later.
+* Create `tox.ini` to create a tox environment for testing.
+* Create a test.
