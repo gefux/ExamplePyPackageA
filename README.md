@@ -58,6 +58,10 @@ python3 -m pip install .
 * Using such a consistant docstring standard as the advantage that you can use [`sphinx`](https://www.sphinx-doc.org) to automatically generate a nice documentation webpage and display it with https://readthedocs.org/ (linking it to the github repo).
 * Also, you might want to have a simple quickstart example in your README.md
 
+### 8. Publish on PyPI
+
+* Here is a good guide on how to publish on PyPI: <https://realpython.com/pypi-publish-python-package/#publishing-to-pypi>.
+
 ------------------------------------------------------------------------------
 
 ## Quickstart (example)
