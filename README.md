@@ -37,3 +37,10 @@ python3 -m pip install .
   needed for testing or creating the documentation later.
 * Create `tox.ini` to create a tox environment for testing.
 * Create a test.
+
+### 6. Connect travis-ci for automated testing
+
+* Log into travis-ci.com with github account and allow travis to access your
+  github.
+* Add the repo to travis.
+* Add travis configuration in `.travis.yml`
